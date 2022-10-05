@@ -20,6 +20,17 @@
 //     Console.WriteLine($"Наибольшее число b={b}, наименьшее число a={a}");
 // }
 
+//второй вариант
+//Console.Clear();
+// Console.WriteLine("Введите число а:");
+// int a=Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число b:");
+// int b=Convert.ToInt32(Console.ReadLine());
+// int max=a;
+// if (a>max) max=a;
+// if (b>max) max=b;
+// Console.WriteLine($"Наибольшее число ={max}");
+
 
 
 //Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
@@ -65,10 +76,13 @@
 
 Console.Clear();
 Console.WriteLine("Введите число x:");
-int x=Convert.ToInt32(Console.ReadLine());
-if x
-
-
+double x=Convert.ToDouble(Console.ReadLine());
+if (x%2==1)
+{
+     Console.WriteLine($"Данное число x={x} не является четным");
+}
+else 
+ Console.WriteLine($"Данное число x={x} четное");
 
 
 
@@ -80,3 +94,5 @@ if x
 
 // Console.Clear();
 // Console.WriteLine("Введите число N:");
+// N=Convert.ToInt32(Console.ReadLine());
+// 
