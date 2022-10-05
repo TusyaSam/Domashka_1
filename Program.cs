@@ -74,15 +74,15 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.Clear();
-Console.WriteLine("Введите число x:");
-double x=Convert.ToDouble(Console.ReadLine());
-if (x%2==1)
-{
-     Console.WriteLine($"Данное число x={x} не является четным");
-}
-else 
- Console.WriteLine($"Данное число x={x} четное");
+// Console.Clear();
+// Console.WriteLine("Введите число x:");
+// double x=Convert.ToDouble(Console.ReadLine());
+// if (x%2==1)
+// {
+//      Console.WriteLine($"Данное число x={x} не является четным");
+// }
+// else 
+//  Console.WriteLine($"Данное число x={x} четное");
 
 
 
@@ -92,7 +92,11 @@ else
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-// Console.Clear();
-// Console.WriteLine("Введите число N:");
-// N=Convert.ToInt32(Console.ReadLine());
-// 
+Console.Clear();
+Console.WriteLine("Введите число N:");
+int N=Convert.ToInt32(Console.ReadLine());
+while (N%2==1);
+{
+    Console.WriteLine($"Последовательность четных чисел равна {N}");
+    N++;
+}
