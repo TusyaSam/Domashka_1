@@ -21,7 +21,7 @@
 // }
 
 //второй вариант
-//Console.Clear();
+// Console.Clear();
 // Console.WriteLine("Введите число а:");
 // int a=Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Введите число b:");
@@ -95,8 +95,10 @@
 Console.Clear();
 Console.WriteLine("Введите число N:");
 int N=Convert.ToInt32(Console.ReadLine());
-while (N%2==1);
+int i = 1;
+while (i<=N) 
 {
-    Console.WriteLine($"Последовательность четных чисел равна {N}");
-    N++;
+if (i%2==0) 
+Console.WriteLine(i);
+i++;
 }
